@@ -7,7 +7,7 @@ def ex1():
     arr = np.array(range(50), dtype='int32')
     #Fiquem la matriu unidimensional a la diagonal de la matriu 50x50
     a = np.diag(arr)
-    #Imprimim la matriu resultant
-    print (a)
     #Guardem la matriu resultant a un arxiu npy
     np.save('exercici1.npy', a)
+    #Fem return de a
+    return a

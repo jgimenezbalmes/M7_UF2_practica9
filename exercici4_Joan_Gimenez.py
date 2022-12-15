@@ -12,11 +12,4 @@ def ex4_Joan_Gimenez():
     d = c.copy()
     d[:,3]=d[0,3]
 
-
-    print (b)
-    print (c)
-
-    print(d)
-
-
-ex4_Joan_Gimenez()
+    return b, c, d
